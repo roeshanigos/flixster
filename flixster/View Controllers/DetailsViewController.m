@@ -7,6 +7,7 @@
 //
 
 #import "DetailsViewController.h"
+#import "TrailerViewController.h"
 #import "UIImageView+AFNetworking.h"
 
 @interface DetailsViewController ()
@@ -39,6 +40,8 @@
     self.synopsisLabel.text = self.movie[@"overview"];
     [self.titleLabel sizeToFit];
     [self.synopsisLabel sizeToFit];
+    //[self performSegueWithIdentifier:@"posterSegue" sender:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
@@ -47,14 +50,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+//before we go to the new screen fetching the movie data to be sent to the trailer view controller
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    TrailerViewController *trailerViewController = segue.destinationViewController;
+    trailerViewController.movieID = self.movie[@"id"];
 }
-*/
 
 @end
