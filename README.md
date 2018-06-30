@@ -48,7 +48,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I definately had a problem with how the code works when you have a network requests. I always kep asking about what the syntax meant with some of the code. Loading the trailers was a problem for my pod and we walked trhough it together! Due to this, I understood more about how network requests work. There is still some confusion but my progress is growing!
+I definetly had a problem with how the code works when you have a network requests. I always kep asking about what the syntax meant with some of the code. Loading the trailers was a problem for my pod and we walked trhough it together! Due to this, I understood more about how network requests work. There is still some confusion but my progress is growing!
 ## Credits
 
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
