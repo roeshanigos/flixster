@@ -40,6 +40,19 @@
     CGFloat itemHeight = itemWidth * 1.5;
     layout.itemSize = CGSizeMake(itemWidth, itemHeight);
     
+    self.navigationItem.title = @"Movies in Grid View";
+    UINavigationBar *navigationBar = self.navigationController.navigationBar;
+    [navigationBar setBackgroundImage:[UIImage imageNamed:@"codepath-logo"] forBarMetrics:UIBarMetricsDefault];
+    navigationBar.tintColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1];
+    
+    NSShadow *shadow = [NSShadow new];
+    shadow.shadowColor = [[UIColor grayColor] colorWithAlphaComponent:0.5];
+    shadow.shadowOffset = CGSizeMake(2, 2);
+    shadow.shadowBlurRadius = 4;
+    navigationBar.titleTextAttributes = @{NSFontAttributeName : [UIFont boldSystemFontOfSize:22],
+                                          NSForegroundColorAttributeName : [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0],
+                                          NSShadowAttributeName : shadow};
+    
 }
 
 - (void)didReceiveMemoryWarning {
