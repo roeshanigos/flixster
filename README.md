@@ -38,13 +38,11 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='blob:https://imgur.com/3dd9d16b-6378-48d4-a244-75f4a9f4409f' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/sf4ql1D.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='blob:https://imgur.com/328383cd-7347-43c8-8246-8eeb5621402d' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/7m1aS1r.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-blob:https://imgur.com/4ee77a29-ad4b-4c1b-8680-96b707f868b6
-
-<img src='blob:https://imgur.com/4ee77a29-ad4b-4c1b-8680-96b707f868b6' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/LfbgYaL.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
